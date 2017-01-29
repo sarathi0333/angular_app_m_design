@@ -1,7 +1,7 @@
 {
     "name": "angularappone",
     "version": "1.0.0",
-    "description": "My First angular app Evn set up",
+    "description": "Angular app Material Design",
     "scripts": {
         "start": "concurrently \"npm run tsc:w\" \"npm run lite-server\" ",
         "tsc":"tsc",
@@ -18,6 +18,8 @@
         "@angular2-material/core":"~2.0.0-alpha.8-2",
         "@angular2-material/button":"~2.0.0-alpha.8-2",
         "@angular2-material/card":"~2.0.0-alpha.8-2",
+        "@angular2-material/icon":"~2.0.0-alpha.8-2",
+        "@angular/http":"~2.4.5",
         "reflect-metadata":"0.1.9",
         "core-js":"2.1.4",
         "systemjs": "0.19.40",

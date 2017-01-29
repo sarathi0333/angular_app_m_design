@@ -15,6 +15,12 @@ map: {
     '@angular/compiler': 'node_modules/@angular/compiler/bundles/compiler.umd.js',
     '@angular/platform-browser': 'node_modules/@angular/platform-browser/bundles/platform-browser.umd.js',
     '@angular/platform-browser-dynamic': 'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
+    '@angular2-material/card': 'node_modules/@angular2-material/card/card.umd.js',
+    '@angular2-material/button': 'node_modules/@angular2-material/button/button.umd.js',
+    '@angular2-material/icon': 'node_modules/@angular2-material/icon/icon.umd.js',
+    '@angular2-material/core': 'node_modules/@angular2-material/core/core.umd.js',
+    '@angular/http': 'node_modules/@angular/http/bundles/http.umd.js',
+
 
     // other libraries
     'rxjs':                      'node_modules/rxjs'

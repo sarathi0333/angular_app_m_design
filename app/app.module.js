@@ -10,15 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+var card_1 = require('@angular2-material/card');
+var button_1 = require('@angular2-material/button');
+var icon_1 = require('@angular2-material/icon');
+var icon_2 = require('@angular2-material/icon');
 var app_component_1 = require('./app.component');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
+            imports: [platform_browser_1.BrowserModule, card_1.MdCardModule, icon_1.MdIconModule, button_1.MdButtonModule],
             declarations: [app_component_1.AppComponent],
-            bootstrap: [app_component_1.AppComponent]
+            bootstrap: [app_component_1.AppComponent],
+            providers: [icon_2.MdIconRegistry]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);
