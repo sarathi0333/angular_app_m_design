@@ -17,7 +17,7 @@ map: {
     '@angular/platform-browser-dynamic': 'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
 
     // other libraries
-    'rxjs':'node_modules/rxjs'
+    'rxjs':                      'node_modules/rxjs'
 },
 // packages tells the System loader how to load when no filename and/or no extension
 packages: {
